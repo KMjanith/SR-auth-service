@@ -2,7 +2,7 @@
 set -e
 
 # Set your image repository
-IMAGE_REPO="mjanith/SR-authservice"
+IMAGE_REPO="mjanith/sr-authservice"
 
 # Fetch the latest numerical tag version from Docker Hub
 LATEST_TAG=$(curl -s "https://hub.docker.com/v2/repositories/$IMAGE_REPO/tags/"  | \
